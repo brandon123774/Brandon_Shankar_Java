@@ -4,18 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e54a5c4f-89fb-4a07-adcd-288a1cb5bccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ConverterInterface/pom.xml" afterDir="false" />
+    <list default="true" id="0bf2a8b0-ac80-465c-91d5-385d537f4403" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CalculatorObject/src/main/java/com/company/CalculatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculatorObject/src/main/java/com/company/CalculatorObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculatorObject/src/test/java/com/company/CalculatorAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/com/company/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/com/company/ConverterIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/com/company/ConverterSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/src/test/java/com/company/ConverterIfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/src/test/java/com/company/ConverterSwitchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/com/company/Composition/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/com/company/Composition/CustomerAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/com/company/Composition/RewardsMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/IceCreamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/IceCreamSales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/Inheritance/Constable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/Inheritance/Farmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/Inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/Inheritance/RPGInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/Inheritance/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPGInheritance/src/main/java/com/Interface/Auditable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/CustomerComposition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IceCreamClassDesign.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1tKLytsqomQdcfPGsv9M1ocf3YS" />
+  <component name="ProjectId" id="1tbi9FGLgK6XPiI3beG7cT3jhUk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
@@ -25,19 +65,40 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.App" />
+      <module name="IceCreamClassDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e54a5c4f-89fb-4a07-adcd-288a1cb5bccb" name="Default Changelist" comment="" />
-      <created>1622513091725</created>
+      <changelist id="0bf2a8b0-ac80-465c-91d5-385d537f4403" name="Default Changelist" comment="" />
+      <created>1623044035656</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622513091725</updated>
+      <updated>1623044035656</updated>
     </task>
     <servers />
   </component>

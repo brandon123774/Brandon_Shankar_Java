@@ -2,13 +2,13 @@ package com.company.models;
 
 import java.util.Objects;
 
-public class Magic {
+public class Answer {
 
     private String question;
     private String answer;
     private int id;
 
-    public Magic(String question, String answer, int id) {
+    public Answer(String question, String answer, int id) {
         this.question = question;
         this.answer = answer;
         this.id = id;
@@ -42,8 +42,8 @@ public class Magic {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Magic magic = (Magic) o;
-        return id == magic.id && Objects.equals(question, magic.question) && Objects.equals(answer, magic.answer);
+        Answer answer = (Answer) o;
+        return id == answer.id && Objects.equals(question, answer.question) && Objects.equals(this.answer, answer.answer);
     }
 
     @Override

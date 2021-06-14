@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 @RestController
 public class WordController {
@@ -36,11 +35,23 @@ public class WordController {
     @RequestMapping(value = "/word", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
 
-    public List<Word> getRandomWord()   {
+    public static ArrayList<Word> getWordList() {
         return wordList;
     }
 
+//    ArrayList<Word> getRandomWord() {
+//        Random rand = new Random();
+//        for (int i = 0; i < 10; i++) {
+//            int randomNum = rand.nextInt(100) + 1;
+//        }
+//        return randomNum();
+//    }
 
-
-
+//    public List<Word> getRandomWord() {
+//        Random random = new Random();
+//        for (int i = 0; i < 10; i++) {
+//            wordList.get(random.nextInt(wordList.size()));
+//        }
+//        return getRandomWord();
+//    }
 }
